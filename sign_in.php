@@ -91,8 +91,10 @@ include 'connection.php';
                 $id_user = $row['idUtilisateur'];
                 $_SESSION['user_id'] = $id_user;
 
-                header("Location: index.php");
-                exit();
+                // Redirect the user back to the previous page or a default page if no return URL is provided
+                $return_url = isset($_SESSION['return_url']) ? $_SESSION['return_url'] : 'index.php';
+                header('Location: ' . $return_url);
+                exit;
             } else {
                 echo " error : Invalid credentials. Authentication failed.";
             }
