@@ -133,7 +133,7 @@ $_SESSION['return_url'] = $_SERVER['REQUEST_URI'];
                                     </div>
                             </form>
                     </div>';
-            } else {
+            } else {     
                 // If the user selects a number of unavailable tickets, the page will show a pop-up window to notify him
                 echo '<div class="scren" id="scren">
                           </div>
