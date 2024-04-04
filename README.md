@@ -10,10 +10,10 @@ Developed a PHP web application to manage event bookings for Farha Association. 
 * Add the following 2 filters:
  * List events between two given dates.
  * List events by category (music, cinema, theater...).
-   ![Homepage](imgs/home_page (1).png)
-   ![Homepage](imgs/home_page (2).png)
-   ![Homepage](imgs/home_page (3).png)
-   ![Homepage](imgs/home_page (5).png)
+![Homepage](imgs/home_page1.png)
+![Homepage](imgs/home_page2.png)
+![Homepage](imgs/home_page3.png)
+![Homepage](imgs/home_page5.png)
 ## Event Details Page
 * When the user clicks on the "Buy" or "Sold Out" button, they will be redirected to a page displaying the event details: title, image (in large size), description, date.
 * A form allowing the user to specify the number of tickets to purchase (for both types of rates).
@@ -30,7 +30,7 @@ Developed a PHP web application to manage event bookings for Farha Association. 
 * A user with an existing account must log in before making a purchase.
 ## User Profile
 When the user is logged in, they can:
-![User Profile](imgs/home_page (8).png)
+![User Profile](imgs/home_page8.png)
 
 * View and modify their personal information (name, surname, email...)
 * View the list of their purchases in the form of a table displaying: the invoice reference, the purchase date, and the total paid, with the possibility to view the tickets and the invoice using two buttons "View My Tickets" and "View My Invoice".
